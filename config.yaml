@@ -12,4 +12,14 @@ routes:
     methods: ['GET','POST']
   - path: /admin
     method: [PUT]
+OperatingSystem:
+  - Windows:
+    - windows 11
+    - windows 12
+  - Mashintosh
+  - Linux:
+    - ubuntu: True
+      Solaris: No
+  - IOS
+  - Android
 
