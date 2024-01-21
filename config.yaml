@@ -1,0 +1,15 @@
+# YAML Yet another markup language
+info:
+  version: "1.0.5"
+  website: "sarthakjain.com"
+
+database:
+  type: 'sqlite'
+  path: /var/bin/*.json
+
+routes:
+  - path: /api/
+    methods: ['GET','POST']
+  - path: /admin
+    method: [PUT]
+
