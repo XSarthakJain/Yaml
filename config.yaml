@@ -23,3 +23,21 @@ OperatingSystem:
   - IOS
   - Android
 
+description1: | 
+  it is yaml
+  tutorial
+  of break line print
+description2: >
+  it will eliminate single line 
+  from
+
+  each row
+
+player: &player_anchor
+  name: myname
+  min_age: 25
+  qualification: Undergrad
+
+hockey:
+  <<: *player_anchor
+  name: Sarthak Jain
